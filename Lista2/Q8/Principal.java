@@ -108,7 +108,7 @@ public class Principal{
         }
 
         Matriz copia = matriz1.copia();
-        System.out.println("Cópia da Matriz 1:");
+        System.out.println("A Cópia da Matriz 1:");
         for (int i = 0; i < copia.linhas; i++) {
             for (int j = 0; j < copia.colunas; j++) {
                 System.out.print(copia.getElemento(i, j) + " ");
